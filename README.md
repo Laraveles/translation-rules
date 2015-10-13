@@ -48,3 +48,26 @@ Al traducir un bloque de código, se debe dejar tal cual aparece en la documenta
 La plataforma CrowdIn ofrece siempre una traducción más o menos acertada sobre la cadena que se desea traducir. Normalmente esta sugerencia no es acertada al 100%, pues se está trabajando sobre lenguaje bastante técnico y no se espera encontrar `table` como `mesa` ni otras erratas por el estilo.
 
 Se ruega encarecidamente que se eviten estas sugerencias así como traducciones automáticas de otros motores como `Google` o `Bing`. Si bien se pueden utilizar como guía y apoyo a la traducción, se espera que las traducciones se aporten de forma manual y coherente.
+
+### Nomenclatura natural del lenguaje
+La mayoría de lenguajes de programación están desarrollados en el idioma sajón por excelencia, inglés. A la hora de traducir, es a menudo complicado encontrar una traducción acertada para ciertos conceptos que ni siquiera existen en otros idiomas. Es por ello que no se deben traducir conceptos nativos del lenguaje como por ejemplo:
+
+- Array
+- Closure
+- Schema
+- Type-hint
+- ...
+
+Y así cualquier otro elemento que sea común al lenguaje de programación. Cualquier progrmador debe conocer estos términos en el idioma base. Traducirlos, una vez mas puede inducir a confusión, pues de nuevo las diferentes variedades del lenguaje los traducen de formas diferentes.
+
+Teniendo en cuenta esto, veamos un ejemplo:
+
+```
+The second argument passed to helper is an array of data that should be made available to the view.
+---
+Correcto:
+El segundo parámetro es un array de datos que deberán estar disponibles en la vista.
+---
+Incorrecto:
+El segundo argumento es un arreglo de datos que deberán estar disponibles en la vista.
+```
