@@ -1,4 +1,19 @@
+# Laraveles / docs
+
+En Laraveles hace tiempo que iniciamos el proceso para traducir la documetación de Laravel a español. Es por este tiempo y experiencia que ha surgido la necesidad de crear una guía para las aportaciones a este proyecto.
+
+Este documento pretende recopilar una serie de normas que hagan que el resultado de la traducción sea homogéneo, coherente y lo más estandarizado posible en cuanto a las diferentes variedades del idioma se refiere.
+
+La plataforma de traducción es libre y cualquier usuario puede registrarse y contribuir. Desde Laraveles **se ruega la lectura de este documento antes de realizar cualquier aportación** al proyecto.
+
+## Enlaces
+
+Proyecto de traducción de Laravel a español: https://crowdin.com/project/laravel-documentation/es-ES
+
+Documentación traducida en español: http://laraveles.com/docs
+
 ## Guía de traducción
+
 Traducir puede resultar una tarea relativamente sencilla pero una traducción de calidad ha de respetar ciertas normas. Este documeto incluye una serie de normas para hacer que el contenido de toda la traducción sea homogéneo y lo más estandarizado posible.
 
 Por favor, leer con atención todos los apartados de esta guía.
@@ -83,3 +98,10 @@ Otro de los problemas comunes a la hora de traducir es la cantidad cantidad de a
 Revisar que efectivamente la aportación que se está realizando cumple con las reglas ortográficas y gramaticales del idioma es fundamental para que sea aprobada por un moderador. El no comprobar lo que se está aportando afecta de forma directa al proyecto de traducción, pues un moderador deberá emplear parte de su tiempo en corregir las sentencias en lugar de contribuir directamente al proyecto con nuevas traducciones u otras tareas.
 
 Por favor, revisar todas las aportaciones, no hay un premio al usuario que más traducciones aporte ni se va a convertir en un reconocimiento.
+
+## Moderadores
+
+Existen moderadores que además de participar en el proceso de traducción, revisan y validan las aportaciones que realiza cada uno de los miembros. Actualmente son:
+
+* @IsraelOrtuno
+* @codeAtBusiness 
