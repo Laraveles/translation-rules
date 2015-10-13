@@ -1,9 +1,50 @@
-# Guías para aportar a la traducción
+## Guía de traducción
+Traducir puede resultar una tarea relativamente sencilla, pero una traducción de calidad ha de respetar ciertas normas. Este incluye una serie de normas para hacer que el contenido de toda la traducción sea homogéneo y lo más estandarizado posible.
 
-Al momento de traducir por favor respetar las siguientes normas:
+Por favor, leer con atención todos los apartados de esta guía.
 
-- Evitar escribir con mayúsculas cada palabra de títulos y sub-títulos (más información).
-- Al traducir bloques de código, traducir siempre que se pueda nombre de variables y comentarios. En el caso de métodos, clases, etc traducir siempre y cuando no se abuse. Hay muchas cosas que traducidas al español no logran el sentido que si tienen en inglés. Si la traducción al español carece de sentido, o cambia el sentido de lo que la funcionalidad que la aplicación debe realizar, se respetará la denominación del método, clase o cualquier otro item en inglés ya que en la mayor parte de los casos se recomienda el uso del inglés para mantener la interoperabilidad entre desarrollos que tienen equipos de desarrolladores distribuidos a lo largo de la geografía. Como alternativa a la traducción siempre se podrá contar con algún comentario explicativo al respecto de qué realiza dicha función o qué funcionalidad tiene determinada clase. Por ejemplo si tenemos un comando que se denominado `AddCommentToArticleCommand` lo mejor sería disponer de la clase en inglés para mantener la interoperabilidad y agregar un comentario que la describa. La clase `AddCommentToArticleCommand` es una clase de tipo **DTO (Data Transfer Object)** que tiene como funcionalidad crear un comentario y asociarlo a un artículo determinado. Todo ello redundará en disponer de una mejor documentación sobre nuestros desarrollos.
-- Los arrays se traducen como arrays, no matrices.
-- Traducir de manera amigable, no tratar al usuario de "usted". Buscar cercanía con el texto pero no informalidad.
-- Tener cuidado con las "Traducciones sugeridas" que entrega el sistema. Una cosa son las traducciones de máquina "Machine translations" las cuales corresponden al uso de Google Translator, y otras son las sugerencias que Crowdin obtiene desde la base de datos global, no sólo del proyecto Laravel.
+### Evitar pronombres
+A la hora de escribir, se intentará evitar la utilización de pronombres lo máximo posible. 
+
+La razón por la que se deben evitar es para intentar estandarizar los diferentes pronombres para las diferentes variantes del lenguaje. En algunas variantes del idioma se utiliza `vos`, en otras `tu`, en otras `usted`, etc... Evitando estos pronombres conseguiremos una forma más cercana a la aceptada por todas las variantes.
+
+Para traducir la cadena:
+
+```
+Note that we are able to inject any dependencies we need into the command's constructor.
+---
+Correcto:
+Tener en cuenta que se puede inyectar cualquier dependencia que se necesite en el constructor del comando.
+---
+Incorrecto:
+Tengamos en cuenta que podemos inyectar cualquier dependencia que necesitemos en el constructor del comando.
+```
+
+Así mismo otro ejemplo:
+
+```
+If you need to ask the user for a simple confirmation, you may use the <0>confirm</0> method.
+---
+Correcto:
+Si es necesario solicitar al usuario una confirmación simple, se puede utilizar el método <0>confirm</0>.
+---
+Incorrecto:
+Si necesitamos preguntar al usuario por una confirmación simple, podemos utilizar el método <0>cofirm</0>.
+```
+
+### Bloques de código
+A pesar de que este proyecto se encarga de traducir la documentación de Laravel de ingés a español, desde Laraveles se recomienda que se programe utilizando el idioma inglés. Programando de este modo, el código podrá ser leido por prácticamente cualquier persona, pues el vocabulario que se utiliza suele ser muy similar, además de crear una armonía al no mezclar dos idiomas en una misma sentencia:
+
+```php
+// Correcto
+$user = User::find(1);
+// Incorrecto
+$usuario = Usuario::find(1);
+```
+
+Al traducir un bloque de código, se debe dejar tal cual aparece en la documentación. De forma opcional se pueden traducir los comentarios o información de los docblocks.
+
+### Traducciones sugeridas y traductores
+La plataforma CrowdIn ofrece siempre una traducción más o menos acertada sobre la cadena que se desea traducir. Normalmente esta sugerencia no es acertada al 100%, pues se está trabajando sobre lenguaje bastante técnico y no se espera encontrar `table` como `mesa` ni otras erratas por el estilo.
+
+Se ruega encarecidamente que se eviten estas sugerencias así como traducciones automáticas de otros motores como `Google` o `Bing`. Si bien se pueden utilizar como guía y apoyo a la traducción, se espera que las traducciones se aporten de forma manual y coherente.
