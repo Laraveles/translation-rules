@@ -1,5 +1,5 @@
 ## Guía de traducción
-Traducir puede resultar una tarea relativamente sencilla, pero una traducción de calidad ha de respetar ciertas normas. Este incluye una serie de normas para hacer que el contenido de toda la traducción sea homogéneo y lo más estandarizado posible.
+Traducir puede resultar una tarea relativamente sencilla pero una traducción de calidad ha de respetar ciertas normas. Este documeto incluye una serie de normas para hacer que el contenido de toda la traducción sea homogéneo y lo más estandarizado posible.
 
 Por favor, leer con atención todos los apartados de esta guía.
 
