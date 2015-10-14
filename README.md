@@ -73,6 +73,7 @@ La mayoría de lenguajes de programación están desarrollados en el idioma saj�
 
 - Array
 - Closure
+- Render
 - Schema
 - Type-hint
 - ...
