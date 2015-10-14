@@ -105,3 +105,7 @@ Existen moderadores que además de participar en el proceso de traducción, revi
 
 * @IsraelOrtuno
 * @codeAtBusiness 
+
+## Contribuir
+
+Cualquier aportación a esta guía es más que bienvenida. Tan solo con hacer pull-request será evaluada o bien contactar con alguno de los administradores para debatir el tema.
