@@ -59,7 +59,7 @@ $user = User::find(1);
 $usuario = Usuario::find(1);
 ```
 
-Al traducir un bloque de código, se debe dejar tal cual aparece en la documentación. De forma opcional se pueden traducir los comentarios o información de los docblocks.
+Al traducir un bloque de código, se debe dejar tal cual aparece en la documentación. Tampoco traducir los comentarios que aparecen en los DocBlocks ya que la mayoría de ellos son recursos que o vienen incorporados directamente con Laravel o son generados por los comandos de consola. De forma opcional se puede traducir algún comentario entre lineas de código si no es suficientemente esclarecedor.
 
 ### Traducciones sugeridas y traductores
 
