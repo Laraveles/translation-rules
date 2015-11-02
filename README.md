@@ -100,6 +100,34 @@ Revisar que efectivamente la aportación que se está realizando cumple con las 
 
 Por favor, revisar todas las aportaciones, no hay un premio al usuario que más traducciones aporte ni se va a convertir en un reconocimiento.
 
+### Títulos y cabeceras
+
+En la documentación oficial de Laravel, se establece por convenio que la primera letra de todas las palabras de títulos y cabeceras se escriba en mayúscula:
+
+```
+- Installation
+- Configuration
+  · Basic Configuration
+  · Environment Configuration
+  · Configuration Caching
+  · Accessing Configuration Values
+  · Naming Your Application
+- Maintenance Mode
+```
+
+Como norma, traduciremos estos títulos tal cual están para evitar que la estructura original del lenguaje cause confusiones en la traducción. Solo se pide que se tenga en cuenta que en español está más generalizado el no establecer preposiciones en mayúscula, por lo que se traducirá así:
+
+```
+- Instalación
+- Configuración
+  · Configuración Básica
+  · Configuración de Entorno
+  · Configuración de Caché
+  · Acceder a Valores de Configuración
+  · Nombre de la Aplicación
+- Modo de Mantenimiento
+```
+
 ## Moderadores
 
 Existen moderadores que además de participar en el proceso de traducción, revisan y validan las aportaciones que realiza cada uno de los miembros. Actualmente son:
