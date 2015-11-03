@@ -14,7 +14,7 @@ Documentación traducida en español: http://laraveles.com/docs
 
 ## Guía de traducción
 
-Traducir puede resultar una tarea relativamente sencilla pero una traducción de calidad ha de respetar ciertas normas. Este documeto incluye una serie de normas para hacer que el contenido de toda la traducción sea homogéneo y lo más estandarizado posible.
+Traducir puede resultar una tarea relativamente sencilla pero una traducción de calidad ha de respetar ciertas normas. Este documento incluye una serie de normas para hacer que el contenido de toda la traducción sea homogéneo y lo más estandarizado posible.
 
 Por favor, leer con atención todos los apartados de esta guía.
 
@@ -69,16 +69,24 @@ Se ruega encarecidamente que se eviten estas sugerencias así como traducciones 
 
 ### Nomenclatura natural del lenguaje
 
-La mayoría de lenguajes de programación están desarrollados en el idioma sajón por excelencia, inglés. A la hora de traducir, es a menudo complicado encontrar una traducción acertada para ciertos conceptos que ni siquiera existen en otros idiomas. Es por ello que no se deben traducir conceptos nativos del lenguaje como por ejemplo:
+La mayoría de lenguajes de programación están desarrollados en el idioma sajón por excelencia, inglés. En multitud de ocasiones, Laravel utiliza una terminología propia que describe 
+muchos de sus elementos y funcionalidades. Por eso, a la hora de traducir, es a menudo complicado encontrar una traducción acertada 
+para ciertos conceptos que ni siquiera existen en otros idiomas. Es por ello que no se deben traducir conceptos nativos del lenguaje como por ejemplo:
 
-- Array
-- Closure
-- Render
-- Schema
-- Type-hint
-- ...
 
-Y así cualquier otro elemento que sea común al lenguaje de programación. Cualquier progrmador debe conocer estos términos en el idioma base. Traducirlos, una vez mas puede inducir a confusión, pues de nuevo las diferentes variedades del lenguaje los traducen de formas diferentes.
+||||
+|:---|:--- |:------- |
+|array|closure|render|
+|schema|type-hint| seed |
+|helper  |service provider  |service container  |
+|true  | false  |null  |
+|login | reset  |query builder  |
+|facade  |driver  |cache  |
+|middleware  |accessor  |mutator  |
+
+
+Y así cualquier otro elemento que sea común al lenguaje de programación. Cualquier programador debe conocer estos términos en el idioma base. Traducirlos, una vez más puede inducir a 
+confusión, pues de nuevo las diferentes variedades del lenguaje los traducen de formas diferentes.
 
 Teniendo en cuenta esto, veamos un ejemplo:
 
@@ -91,10 +99,11 @@ El segundo parámetro es un array de datos que deberán estar disponibles en la 
 Incorrecto:
 El segundo argumento es un arreglo de datos que deberán estar disponibles en la vista.
 ```
+  
 
 ### Ortografía y gramática
 
-Otro de los problemas comunes a la hora de traducir es la cantidad cantidad de aportaciones que se realizan sin haber comprobado la ortografía y gramática de éstas.
+Otro de los problemas comunes a la hora de traducir es la cantidad de aportaciones que se realizan sin haber comprobado la ortografía y gramática de estas.
 
 Revisar que efectivamente la aportación que se está realizando cumple con las reglas ortográficas y gramaticales del idioma es fundamental para que sea aprobada por un moderador. El no comprobar lo que se está aportando afecta de forma directa al proyecto de traducción, pues un moderador deberá emplear parte de su tiempo en corregir las sentencias en lugar de contribuir directamente al proyecto con nuevas traducciones u otras tareas.
 
