@@ -74,15 +74,16 @@ muchos de sus elementos y funcionalidades. Por eso, a la hora de traducir, es a 
 para ciertos conceptos que ni siquiera existen en otros idiomas. Es por ello que no se deben traducir conceptos nativos del lenguaje como por ejemplo:
 
 
-||||
-|:---|:--- |:------- |
-|array|closure|render|
-|schema|type-hint| seed |
-|helper  |service provider  |service container  |
-|true  | false  |null  |
-|login | reset  |query builder  |
-|facade  |driver  |cache  |
-|middleware  |accessor  |mutator  |
+| Término     | Término           | Término           | 
+|:------------|:------------------|:----------------- |
+| array       | closure           | render            |
+| schema      | type-hint         | seed              |
+| helper      | service provider  | service container |
+| true        | false             | null              |
+| login       | reset             | query builder     |
+| facade      | driver            | cache             |
+| middleware  | accessor          | mutator           |
+| slug        | scope             | constraint        |
 
 
 Y así cualquier otro elemento que sea común al lenguaje de programación. Cualquier programador debe conocer estos términos en el idioma base. Traducirlos, una vez más puede inducir a 
