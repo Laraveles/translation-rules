@@ -84,6 +84,7 @@ para ciertos conceptos que ni siquiera existen en otros idiomas. Es por ello que
 | facade      | driver            | cache             |
 | middleware  | accessor          | mutator           |
 | slug        | scope             | constraint        |
+| casting     | join              | CamelCase         |
 
 
 Y así cualquier otro elemento que sea común al lenguaje de programación. Cualquier programador debe conocer estos términos en el idioma base. Traducirlos, una vez más puede inducir a 
