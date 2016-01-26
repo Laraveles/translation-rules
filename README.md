@@ -52,7 +52,7 @@ Si necesitamos preguntar al usuario por una confirmación simple, podemos utiliz
 
 A pesar de que este proyecto se encarga de traducir la documentación de Laravel de ingés a español, desde Laraveles se recomienda que se programe utilizando el idioma inglés. Programando de este modo, el código podrá ser leido por prácticamente cualquier persona, pues el vocabulario que se utiliza suele ser muy similar, además de crear una armonía al no mezclar dos idiomas en una misma sentencia.
 
-** NO *+ traducir bloques de código, se debe dejar tal cual aparece en la plataforma, en **ROJO**.
+**NO** traducir bloques de código, se debe dejar tal cual aparece en la plataforma, en **ROJO**.
 
 ### Traducciones sugeridas y traductores
 
