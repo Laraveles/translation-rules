@@ -50,16 +50,9 @@ Si necesitamos preguntar al usuario por una confirmación simple, podemos utiliz
 
 ### Bloques de código
 
-A pesar de que este proyecto se encarga de traducir la documentación de Laravel de ingés a español, desde Laraveles se recomienda que se programe utilizando el idioma inglés. Programando de este modo, el código podrá ser leido por prácticamente cualquier persona, pues el vocabulario que se utiliza suele ser muy similar, además de crear una armonía al no mezclar dos idiomas en una misma sentencia:
+A pesar de que este proyecto se encarga de traducir la documentación de Laravel de ingés a español, desde Laraveles se recomienda que se programe utilizando el idioma inglés. Programando de este modo, el código podrá ser leido por prácticamente cualquier persona, pues el vocabulario que se utiliza suele ser muy similar, además de crear una armonía al no mezclar dos idiomas en una misma sentencia.
 
-```php
-// Correcto
-$user = User::find(1);
-// Incorrecto
-$usuario = Usuario::find(1);
-```
-
-Al traducir un bloque de código, se debe dejar tal cual aparece en la documentación. Tampoco traducir los comentarios que aparecen en los DocBlocks ya que la mayoría de ellos son recursos que o vienen incorporados directamente con Laravel o son generados por los comandos de consola. De forma opcional se puede traducir algún comentario entre lineas de código si no es suficientemente esclarecedor.
+** NO *+ traducir bloques de código, se debe dejar tal cual aparece en la plataforma, en **ROJO**.
 
 ### Traducciones sugeridas y traductores
 
