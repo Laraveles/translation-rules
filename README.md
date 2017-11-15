@@ -98,7 +98,6 @@ Incorrecto:
 El segundo argumento es un arreglo / array de datos que deberán estar disponibles en la vista.
 ```
   
-
 ### Ortografía y gramática
 
 Otro de los problemas comunes a la hora de traducir es la cantidad de aportaciones que se realizan sin haber comprobado la ortografía y gramática de estas.
@@ -109,7 +108,7 @@ Por favor, revisar todas las aportaciones y preguntad en los canales de Slack en
 
 ### Títulos y cabeceras
 
-En la documentación oficial de Laravel, se establece por convenio que **la primera letra de todas las palabras de títulos y cabeceras se escriba en mayúscula**.
+La traducción de los títulos se realizará conforme cualquier otra frase, esto es, **salvo que la palabra esté comienzo de frase, a continuación de un punto o sea nombre propio, no deberá escribirse con mayúsculas**. Un ejemplo lo tenemos en el siguiente fragmento.
 
 ```
 - Installation
@@ -122,17 +121,17 @@ En la documentación oficial de Laravel, se establece por convenio que **la prim
 - Maintenance Mode
 ```
 
-Como norma, traduciremos estos títulos tal cual están para evitar que la estructura original del lenguaje cause confusiones al lector. Sólo se pide que se tenga en cuenta que en español está más generalizado el no establecer preposiciones en mayúscula, por lo que se traducirá así:
+Quedaría así:
 
 ```
 - Instalación
 - Configuración
-  · Configuración Básica
-  · Configuración de Entorno
-  · Configuración de Caché
-  · Accediendo a los Valores de Configuración
-  · Nombrando tú Aplicación
-- Modo de Mantenimiento
+  · Configuración básica
+  · Configuración de entorno
+  · Configuración de caché
+  · Accediendo a los valores de configuración
+  · Nombrando tu aplicación
+- Modo de mantenimiento
 ```
 
 ## Moderadores
