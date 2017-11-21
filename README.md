@@ -129,8 +129,8 @@ Quedaría así:
   · Configuración básica
   · Configuración de entorno
   · Configuración de caché
-  · Accediendo a los valores de configuración
-  · Nombrando tu aplicación
+  · Acceder a los valores de configuración
+  · Nombrar la aplicación
 - Modo de mantenimiento
 ```
 
