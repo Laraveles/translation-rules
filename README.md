@@ -12,7 +12,7 @@ Todas las aportaciones que no sigan la _**Guía de Estilos**_ serán descartadas
 
 Proyecto de traducción de Laravel a español: https://crowdin.com/project/laravel-documentation/es-ES
 
-Documentación traducida en español: http://laraveles.com/docs
+Documentación traducida en español: https://docs.laraveles.com/
 
 ## Guía de traducción
 
