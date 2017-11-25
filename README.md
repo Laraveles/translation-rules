@@ -60,7 +60,7 @@ La plataforma _CrowdIn_ ofrece siempre una traducción más o menos acertada sob
 
 Se ruega encarecidamente que se eviten estas sugerencias así como traducciones automáticas de otros motores como `Google` o `Bing`. Si bien se pueden utilizar como guía y apoyo a la traducción, se espera que las traducciones se aporten de forma manual y coherente.
 
-Como webs de referencia para comprobar y buscar el término más correcto en una traducción sugerimos que se utilice el sitio [Word Reference](URL "http://www.wordreference.com") 
+Como webs de referencia para comprobar y buscar el término más correcto en una traducción sugerimos que se utilice el sitio [Word Reference](http://www.wordreference.com) 
 
 ### Nomenclatura natural del lenguaje
 
@@ -69,7 +69,7 @@ La mayoría de lenguajes de programación están desarrollados en el idioma saj�
 Por eso, a la hora de traducir, es a menudo complicado encontrar una traducción acertada 
 para ciertos conceptos que ni siquiera existen en otros idiomas. Es por ello que no se deben traducir conceptos nativos del lenguaje, o aquellas cuya traducción alteren el significado de la frase original. 
 
-En este caso se escribirá el térnimo en el idioma original entre los símbolos <i> y </i> para que aparezca en cursiva y denote que no ha sido traducido a propósito, por ejemplo `<i>type-hint</i>` que debería verse como _type-hint_. A modo de _**orientación**_ se ofrece la siguiente tabla:
+En este caso se escribirá el término en el idioma original entre los símbolos <i> y </i> para que aparezca en cursiva y denote que no ha sido traducido a propósito, por ejemplo `<i>type-hint</i>` que debería verse como _type-hint_. A modo de _**orientación**_ se ofrece la siguiente tabla:
 
 | Término     | Término           | Término           | 
 |:------------|:------------------|:----------------- |
